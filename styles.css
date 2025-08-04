@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff1e0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff8000;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #ffe0b3;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255,128,0,0.3);
+}
+
+h2 {
+  color: #cc6600;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #994d00;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ff9933;
+  background-color: #fff8f0;
+}
+
+input[type="submit"] {
+  background-color: #ff8000;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #e67300;
+}
+
+.galeria {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.galeria img {
+  width: 32%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  background-color: #ff8000;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
